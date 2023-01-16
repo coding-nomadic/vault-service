@@ -1,0 +1,11 @@
+
+server:
+  port:  9091
+
+vault:
+   host: 127.0.0.1
+   port: 8200
+   scheme: http
+   devToken: dev-token
+   secret: secret
+   

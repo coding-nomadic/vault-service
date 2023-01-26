@@ -26,12 +26,26 @@ vault server -dev -dev-root-token-id="dev-token"
 
 ## Open the local Vault User Interface 
 
-You can open any browser and navigate 
+You can open any browser, navigate below URL and enter the token id as "dev-token" to login -
 
 ```
 http://localhost:8200/
 ```
-The same host and the port number is confiugred in the 
+## CRUD endpoints 
+
+```
+curl --location --request POST 'http://localhost:8080/vaults' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "vaultSecretPath": "postGreSQLPath",
+    "key": "test",
+    "value": "test"
+}'
+```
+Once path secret path is created, you can navigate and see the key-values 
+
+![Capture](https://user-images.githubusercontent.com/8009104/214837169-6ed7948e-ea87-4f71-959a-cefdf2fd52ae.JPG)
+
 
 
 

@@ -5,3 +5,4 @@
 * Download Vault set up from - https://developer.hashicorp.com/vault/downloads?host=www.vaultproject.io
 
 * Run the setup and run this command -  vault server -dev -dev-root-token-id="dev-token"
+![Capture](https://user-images.githubusercontent.com/8009104/214830386-3f2c7faf-579b-4883-90d4-9248f4339ac2.JPG)

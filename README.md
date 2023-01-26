@@ -1,4 +1,4 @@
-account-rest-service
+## Vault-Service
 
 * Exposed API to be consumed in any Microservices to read sensitive data from Hashcorp vault.
 

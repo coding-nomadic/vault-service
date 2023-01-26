@@ -31,7 +31,7 @@ You can open any browser, navigate below URL and enter the token id as "dev-toke
 ```
 http://localhost:8200/
 ```
-## CRUD endpoints 
+## POST endpoint - 
 
 ```
 curl --location --request POST 'http://localhost:8080/vaults' \
@@ -46,7 +46,26 @@ Once path secret path is created, you can navigate and see the key-values
 
 ![Capture](https://user-images.githubusercontent.com/8009104/214837169-6ed7948e-ea87-4f71-959a-cefdf2fd52ae.JPG)
 
-
-
+## GET by path endpoint - 
+```
+curl --location --request GET 'http://localhost:8080/vaults/postGreSQLPath' \
+--header 'Content-Type: application/json' \
+--data-raw ''
+```
+## Update by path endpoint - 
+```
+curl --location --request PUT 'http://localhost:8080/vaults/postGreSQLPath' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "key": "test1",
+    "value": "test1"
+}'
+```
+## Delete by path endpoint - 
+```
+curl --location --request DELETE 'http://localhost:8080/vaults/postGreSQLPath' \
+--header 'Content-Type: application/json' \
+--data-raw ''
+```
 
 

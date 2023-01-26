@@ -1,3 +1,5 @@
+account-rest-service
+
 * Exposed API to be consumed in any Microservices to read sensitive data from Hashcorp vault.
 
 * CRUD Rest endpoints to add, update, fetch and delete of Vault data from Vault Path.

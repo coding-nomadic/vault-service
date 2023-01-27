@@ -1,6 +1,6 @@
 ## Vault-Service
 
-This is vault-service Rest endpoints built using SpringBoot which allows to create path in hashCorp Vault. This also allows to CRUD of key values for the same path.
+This is Rest endpoints built using SpringBoot which allows to create path in hashCorp Vault. This also allows to CRUD of key values for the same path.
 
 This endpoints can be used in any Microservice Projects where we need to read the sensitive data such as database credentials which are stored in vault.
 
